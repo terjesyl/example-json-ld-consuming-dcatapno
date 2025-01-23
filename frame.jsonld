@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "dct": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dcatnoextension": "http://fellesdatakatalog.digdir.no/vocabularies/dcatnoextension#",
+        "Dataset": "dcat:Dataset",
+        "Dataset.uri": "@id",
+        "Dataset.publisher": {
+            "@context": {
+                "@base": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/"
+            },
+            "@type": "@id",
+            "@id": "dct:publisher"
+        },
+        "Dataset.accessRights": {
+            "@context": {
+                "@base": "http://publications.europa.eu/resource/authority/access-right/"
+            },
+            "@type": "@id",
+            "@id": "dct:accessRights"
+        },
+        "accessRequesteeType": {
+            "@context": {
+                "@base": "http://fellesdatakatalog.digdir.no/vocabularies/accessRequesteeTypes/"
+            },
+            "@type": "@id",
+            "@id": "dcatnoextension:accessRequesteeType"
+        },
+        "Dataset.description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@container": "@language"
+        },
+        "Dataset.title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@container": "@language"
+        }
+    },
+    "@type": "Dataset",
+    "Dataset.uri": {},
+    "http://purl.org/dc/terms/description": {},
+    "Dataset.publisher": {},
+    "http://purl.org/dc/terms/title": {},
+    "Dataset.accessRights": {},
+    "accessRequesteeType": {},
+    "@explicit": true
+}

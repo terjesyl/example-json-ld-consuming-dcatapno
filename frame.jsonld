@@ -37,12 +37,12 @@
             "@container": "@language"
         }
     },
+    "@requireAll": true,
     "@type": "Dataset",
     "Dataset.uri": {},
     "http://purl.org/dc/terms/description": {},
     "Dataset.publisher": {},
     "http://purl.org/dc/terms/title": {},
     "Dataset.accessRights": {},
-    "accessRequesteeType": {},
-    "@explicit": true
+    "accessRequesteeType": {}
 }
